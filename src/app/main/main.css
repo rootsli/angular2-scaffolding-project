@@ -1,0 +1,28 @@
+.main-menu {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  margin-bottom: 0;
+  border-right: 3px solid #0cadb7;
+  /* width: 90px; */
+  background-color: #353942;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-content {
+  float: left;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 200px;
+  background-color: #ddd;
+}

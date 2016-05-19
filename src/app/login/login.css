@@ -1,0 +1,26 @@
+.container-login {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(4, 0, 0, 0.3);
+  transition: width 0.3s;
+  padding: 35px;
+  margin-top: 150px;
+}
+
+.form-group {
+  margin-bottom: 0 !important;
+  margin-top: 34px;
+}
+
+.btn-login {
+  width: 354px;
+}
+
+.ng-valid[required] {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid {
+  border-left: 5px solid #a94442; /* red */
+}

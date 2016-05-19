@@ -1,0 +1,41 @@
+<header class="header-container">
+  <div class="rightsidebar">
+    <img [src]="userInfo.avatar">
+    <span>{{userInfo.name}}</span>
+    <a (click)="logout()">[注销]</a>
+  </div>
+</header>
+<main class="main-container">
+  <div class="main-menu">
+    <accordion closeOthers=true>
+      <accordion-group isOpen=true>
+        <div accordion-heading>
+          系统管理
+          <i class="pull-right glyphicon"></i>
+        </div>
+        <ul class="col-submenus" style="top: 0;">
+          <li><a [routerLink]=" ['Zcgl'] ">资产管理</a></li>
+          <li><a [routerLink]=" ['Xxgl',{id:id}] ">消息管理</a></li>
+          <li><a [routerLink]=" ['Zcgl'] ">用户管理</a></li>
+          <li><a [routerLink]=" ['Zcgl'] ">角色管理</a></li>
+        </ul>
+      </accordion-group>
+      <accordion-group>
+        <div accordion-heading>
+          系统管理
+          <i class="pull-right glyphicon"></i>
+        </div>
+        <ul class="col-submenus" style="top: 0;">
+          <li><a [routerLink]=" ['Zcgl'] ">资产管理</a></li>
+          <li><a [routerLink]=" ['Xxgl',{id:id}] ">消息管理</a></li>
+          <li><a [routerLink]=" ['Zcgl'] ">用户管理</a></li>
+          <li><a [routerLink]=" ['Zcgl'] ">角色管理</a></li>
+        </ul>
+      </accordion-group>
+    </accordion>
+  </div>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+

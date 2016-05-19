@@ -1,0 +1,53 @@
+.panel-group .panel {
+  border-radius: 0 !important;
+  background-color: #353942;
+  border: none;
+}
+
+.panel-default > .panel-heading {
+  border-radius: 0px;
+  background-color: #323e4a;
+  border-top: 1px solid #3d4853;
+  border-bottom: 1px solid #252e37;
+  color: #999;
+}
+
+.panel-default > .panel-heading:hover, .panel-open > .panel-default > .panel-heading {
+  /*border-top: 1px solid #0cadb7;*/
+  border-bottom: 1px solid #0cadb7;
+  background-color: #0cadb7;
+  color: #fff;
+}
+
+.panel-title > a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  outline: none;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border: none;
+}
+
+.panel-body > .col-submenus {
+  text-align: left;
+  color: #bbb;
+}
+
+.panel-body > .col-submenus li {
+  margin: 15px 5px;
+}
+
+.panel-body > .col-submenus a {
+  color: #999;
+  text-decoration: none;
+  outline: none;
+  font-weight: 600;
+  position: relative;
+}
+
+.panel-body > .col-submenus a:hover, .panel-body > .col-submenus .router-link-active {
+  color: #0cadb7 !important;
+}
+
